@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Balloon Pop Maths - a fun, interactive maths game.">
     <meta name="keywords" content="Maths, Game, Interactive">
-    <meta name="author" content="Richard Ash">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Link to Balloon Favicon -->
-    <link rel="shortcut icon" href="assets/images/balloon-favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/balloon-favicon.ico" type="image/x-icon">
     <!-- Link to Bootstrap 4.4.1 CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Link to Google Fonts -->
@@ -19,7 +18,7 @@
     <!-- Link to Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/7863bec69d.js" crossorigin="anonymous"></script>
     <!-- Link to Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Link to Email JS -->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <title>Balloon Pop Maths</title>
@@ -34,7 +33,7 @@
                 <a href="index.html">
                     <h1 class="heading-main">Balloon</h1>
                     <h1 class="heading-main">Pop
-                        <img src="assets/images/balloon-purple-cropped.png" alt="Purple balloon popping"/>
+                        <img src="./images/balloon-purple-cropped.png" alt="Purple balloon popping"/>
                     </h1>
                     <h1 class="heading-main">Maths</h1>
                 </a>
@@ -42,7 +41,7 @@
             <!-- Screens larger than md -->
             <div class="col-12 d-none d-md-block container-heading-main-large text-center">
                 <a href="index.html">
-                    <h1 class="heading-main">Balloon Pop<img src="assets/images/balloon-purple-cropped.png" alt="Purple balloon popping"> Maths</h1>
+                    <h1 class="heading-main">Balloon Pop<img src="./images/balloon-purple-cropped.png" alt="Purple balloon popping"> Maths</h1>
                 </a>
             </div>
         </div>
@@ -235,9 +234,7 @@
                         and to encourage independent learning. Select game mode (multiply, divide, add or subtract), 
                         hit play and pop some balloons! 
                         Number of questions and difficulty level may be selected in the game options. 
-                        Specific groups of questions may also be selected to assist with targeted learning. Please feel free to 
-                        <a href="#modal-contact" data-toggle="modal" data-target="#modal-contact"><strong>contact</strong></a> 
-                        me with suggestions on how I can improve Ballon Pop Maths, or if you need a developer to make your ideas reality!              
+                        Specific groups of questions may also be selected to assist with targeted learning.              
                     </p>
                 </div>
             </div>
@@ -346,49 +343,19 @@
         </div>
     </div>
     <!-- Contact modal -->
-    <div id="modal-contact" class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 id="modal-contact-heading-text" class="modal-title">Contact Developer</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- sendMail javascript function run on submit -->
-                    <form id="contact" onsubmit="return sendMail(this);">
-                        <p>Please feel free to contact me with suggestions on how I can improve Balloon Pop Maths, or if you need a developer to make your ideas reality! </p>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" aria-label="Enter name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" aria-label="Enter email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" id="message" name="message" placeholder="Enter message" aria-label="Enter message" maxlength="6000" rows="7" required></textarea>
-                        </div>
-                        <div id="form-buttons" class="text-right">
-                            <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" id="form-submit" class="btn btn-lg btn-primary">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     
     <!-- JavaScript links -->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="assets/js/initialisation.js"></script>
-    <script src="assets/js/audio.js"></script>
-    <script src="assets/js/animation.js"></script>
-    <script src="assets/js/display.js"></script>
-    <script src="assets/js/game-logic.js"></script>
-    <script src="assets/js/mail.js"></script>
-    <script src="assets/js/maths.js"></script>
-    <script src="assets/js/events.js"></script>
+    <script src="./js/initialisation.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="./js/animation.js"></script>
+    <script src="./js/display.js"></script>
+    <script src="./js/game-logic.js"></script>
+    <script src="./js/mail.js"></script>
+    <script src="./js/maths.js"></script>
+    <script src="./js/events.js"></script>
 </body>
 </html>
