@@ -27,7 +27,7 @@
          url('../fonts/whale-i-tried.ttf')  format('truetype'),
          url('../fonts/whale-i-tried.svg#Whale I Tried') format('svg');
 }
-
+/*this is a contribution to open source*/
 /*-- HTML--*/
 html {
     font-size: 62.5%;
