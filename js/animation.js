@@ -121,3 +121,4 @@ function initialiseBalloons() {
     drawBalloonImage("canvas-balloon-right-2", imgBalloonGreen, 1);
     drawBalloonImage("canvas-balloon-right-3", imgBalloonYellow, 1);
 }
+/*I've made this contribution to the open source world */
